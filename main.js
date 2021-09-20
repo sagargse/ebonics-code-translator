@@ -8,7 +8,7 @@ var serverURl = "https://api.funtranslations.com/translate/ebonics.json?text=Hi%
  }
  function errorHandler(error){
     console.log("error occured",error)
-    aler("something wrong with the server! please try again later")
+    alert("something wrong with the server! please try again later")
  }
 function clickHandler(){
 var inputText = textInput.value; //taking input
